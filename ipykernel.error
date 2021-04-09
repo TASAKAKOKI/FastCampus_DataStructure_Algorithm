@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "c:\Users\KOKHEEJIN\.vscode\extensions\ms-python.python-2021.3.680753044\pythonFiles\shell_exec.py", line 26, in <module>
+    subprocess.check_call(shell_args, stdout=sys.stdout, stderr=sys.stderr)
+  File "C:\Python38\lib\subprocess.py", line 364, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['C:/Python38/python.exe', 'c:\\Users\\KOKHEEJIN\\.vscode\\extensions\\ms-python.python-2021.3.680753044\\pythonFiles\\pyvsc-run-isolated.py', 'pip', 'install', '-U']' returned non-zero exit status 1.
